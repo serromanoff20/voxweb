@@ -1,0 +1,101 @@
+
+.menu{
+	width: 60px;
+	height: 58px;
+	position: absolute;
+	right: 1vw;
+	top: 0;
+	
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+	background-image: url("https://icon-icons.com/icons2/1993/PNG/512/burger_line_list_menu_nav_navigation_option_icon_123231.png");
+	
+	cursor: pointer;
+}
+
+#DropMenu{
+	display: none;
+	
+	min-width: 530px;
+
+	position: absolute;
+	right: 0;
+	top: 0;
+
+	background-color: #FFD241;
+	box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.3);
+
+}
+
+#DropMenu a{
+	margin-top: 50px;
+	display: block;
+
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+	text-align: center;
+	text-decoration: none;
+
+	color: black;
+}
+
+div .close{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: red;
+	cursor: pointer;
+
+}
+
+.class_inMenu{
+	margin: auto;
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+	justify-content: center;
+}
+
+.class_inMenu h2{
+	margin: 0;
+	padding: 0;
+}
+
+.inMenu{
+	border: 1px solid black; 
+	padding: 0;
+	margin-top: 29px;
+}
+
+.selected{
+	margin: 101 120;
+	width: 280;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.change{
+	padding: 10px;
+	height: 49;
+	border-radius: 29.5px;
+	border: 0;
+}
+
+#countrys{
+	width: 150px;
+	margin-right: 10;
+}
+
+#date{
+	width: 120px;
+}
+
+#type_trevel{
+	width: 280px;
+	margin-top: 18;
+}

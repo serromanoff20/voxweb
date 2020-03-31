@@ -1,8 +1,10 @@
 ﻿<html>
  <head>
-  <meta charset="utf-8" />		
+  <meta charset="utf-8">
+  	
   <title>Вёрстка</title>
   <link rel='stylesheet' type='text/css' href='style/style.css' />
+  <link rel='stylesheet' type='text/css' href='style/style_inMenu.css' />
  </head>
  <body>
 	
@@ -10,11 +12,31 @@
 		<div class="menu" id="dropMenu_id" onclick="DropOnLeft()"></div>
 		<div id="DropMenu" >
 			<div class="close" id="closeMenu_id" onclick="closeMenu()">Закрыть</div>
+			<div class="selected">
+				<select class="change" id="countrys" size="1">
+					<option selected value="x">Страны</option>
+					<option value="y">Россия</option>
+					<option value="z">Япония</option>
+				</select>
+				
+				<input class="change" id="date" type="date" value="Даты">
+
+				<select class="change" id="type_trevel" size="1">
+					<option selected value="x">Тип путешествия</option>
+					<option value="y">Поезд</option>
+					<option value="z">Самолёт</option>
+				</select>
+			</div>
 
 			<a href="#">ПУТЕШЕСТВИЯ</a>
 			<a href="#">О НАС</a>
 			<a href="#">ОТЗЫВЫ</a>
 			<a href="#">БЛОГ</a>
+			
+			<div class="class_inMenu">
+				<h2>+7 (495) 123-45-67</h2>
+				<button class="inMenu">ПОДБЕРИТЕ МНЕ ТУР</button>
+			</div>
 		</div>
 
 	</div>
