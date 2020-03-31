@@ -1,0 +1,189 @@
+﻿<html>
+ <head>
+  <meta charset="utf-8" />		
+  <title>Вёрстка</title>
+  <link rel='stylesheet' type='text/css' href='style/style.css' />
+ </head>
+ <body>
+	
+	<div class="header">
+		<div class="menu" id="dropMenu_id" onclick="DropOnLeft()"></div>
+		<div id="DropMenu" >
+			<div class="close" id="closeMenu_id" onclick="closeMenu()">Закрыть</div>
+
+			<a href="#">ПУТЕШЕСТВИЯ</a>
+			<a href="#">О НАС</a>
+			<a href="#">ОТЗЫВЫ</a>
+			<a href="#">БЛОГ</a>
+		</div>
+
+	</div>
+	
+	<div class="container">
+		<h2>ЗИМБАБВЕ</h2>
+		
+		<div class="photo-price-direction">
+			<div id="margin_right_2vw">
+				<div class="tropa">
+					<div class="price">от 118 112 ₽</div>
+				</div>
+				<p class="block-name-country">ИТАЛИЯ</p>
+				<h3 class="name-place">Под небом Тосканы</h3>
+				<p class="direction-place">Сансеполькро — (Перуджа) — Ассизи — Губбио — (Сиена) — Ла Верна — Ангиари — Монтерки — Ареццо — Кортона — (Пиенца) - (Монтепульчано)</p>
+				<p>8 дней / 7 ночей Русский язык 27.04.19 - 04.05.19 и еще 15 дат </p>
+
+				<div class="block-bonus"> <center> Авиаперелет включен!</center></div>
+			</div>
+			
+			<div>
+				<div class="tropa">
+					<div class="price">140 715 ₽</div>
+				</div>
+				<p class="block-name-country">ИСЛАНДИЯ</p>
+				<h3 class="name-place">Майские каникулы в Исландии</h3>
+				<p class="direction-place">Рейкьявик — Тингвеллир — Гюдльфосс — Скафтафедль — Сельяландсфосс — Скоугафосс — Йёкюльсаурлоун — Голубая Лагуна — Снайфельсйёкутль — Arnarstapi — Рейкьявик</p>
+				<p>8 дней / 7 ночей Русский язык 27.04.19 - 04.05.19</p>
+			</div>
+
+			<div id="margin_right_2vw">			
+				<div class="tropa">
+					<div class="price">37 302 ₽</div>
+				</div>
+				<p class="block-name-country">ТУРЦИЯ</p>
+				<h3 class="name-place">Открытие Турции</h3>
+				<p class="direction-place">Стамбул — Анкара — Каппадокия — Конья — Памуккале — Эфес — Кушадасы — Пергам — Ассос — Троя — Стамбул</p>
+				<p>8 дней / 7 ночей Русский язык 27.04.19 - 04.05.19 и еще 3 даты</p>
+			</div>
+			
+			<div>			
+				<div class="tropa">
+					<div class="price">145 000 ₽</div>
+				</div>
+				<p class="block-name-country">НОРВЕГИЯ, ШПИЦБЕРГЕН</p>
+				<h3 class="name-place">От Свальбарда до Груманта</h3>
+				<p class="direction-place"></p>
+				<p>8 дней / 7 ночей Русский язык 27.04.19 - 04.05.19и еще 15 дат</p>
+
+				<div class="block-bonus"> <center> Гарантированный тур!</center></div>
+			</div>
+		</div>
+		
+		<form class="forma-on-travels" action="#" method="POST">
+			<h2>Заявка на подбор путешествия</h2>
+			
+			<p class="about-us">НЕМНОГО О ВАС</p>
+			
+			<div class="data-form-checkbox">
+				<div class="part-form">
+					<p>ИМЯ <span>*</span></p>
+					<input class="inputs left" type=text />
+				</div>
+				
+				<div class="part-form">
+					<p>ТЕЛЕФОН</p>
+					<input class="inputs" type=text placeholder="+7___ ___ __ __"/>
+				</div>
+			</div>
+			
+			<p class="about-us">О ПУТЕШЕСТВИИ</p>
+			
+			<div class="data-form-checkbox">
+				<div class="part-form">
+					<p>КУДА И КОГДА ХОТИТЕ ПОЕХАТЬ? <span>*</span></p>
+					<input class="inputs left" type=text placeholder="Континент, страна или город"/>
+				</div>
+				
+				<div class="part-form">
+					<p>КОГДА?</p>
+					<input class="inputs" type=text placeholder="Даты или временной интервал"/>
+					<!--<input class="inputs" type=date/>!-->
+				</div>
+				
+				<div class="lefs">
+					<p class="about-us long">УДОБНЫЙ СПОСОБ СВЯЗИ</p>
+					
+					<div class="join-checkbox">
+						<label>
+							<p class="name-checkbox">VIBER</p>
+							<input class="checks" type=checkbox />
+						</label>
+						
+						<label>
+							<p class="name-checkbox">WHATSAPP</p>
+							<input class="checks" type=checkbox />
+						</label>
+						
+						<label>
+							<p class="name-checkbox">ПОЧТА</p>
+							<input class="checks" type=checkbox />
+						</label>
+						
+						<label>
+							<p class="name-checkbox">ТЕЛЕФОН</p>
+							<input class="checks" type=checkbox />
+						</label>
+					</div>
+				</div>
+				
+				<div>
+					<p class="about-us long">ОТКУДА УЗНАЛИ О НАС</p>
+					
+					<div class="join-checkbox">
+						<label>
+							<p class="name-checkbox">ИНТЕРНЕТ</p>
+							<input class="checks" type=checkbox />
+						</label>
+						
+						<label>
+							<p class="name-checkbox">ДРУЗЬЯ</p>
+							<input class="checks" type=checkbox />
+						</label>
+						
+						<label>
+							<p class="name-checkbox">СОЦ.СЕТИ</p>
+							<input class="checks" type=checkbox />
+						</label>
+						
+						<label>
+							<p class="name-checkbox">УЖЕ ЕЗДИЛ</p>
+							<input class="checks" type=checkbox />
+						</label>
+					</div>
+				</div>
+				
+				<div class="other-info">
+				
+					<label class="label-other-info">
+						<div class="input-other-info">
+							<input class="input-other-info-checkbox" type=checkbox />
+							<p class="p-other-info checkbox-elm">Получать свежие предложения по электронной почте</p>
+						</div>
+						<p class="p-other-info direction">Каждую неделю мы делаем для вас обзор лучших экспедиций, статей и лайфхаков для путешественников. Если вдркуг вам не понравиться, вы можете отписаться в любой момент.</p>
+					</label>
+						
+					<label class="label-other-info">
+						<div class="input-other-info">
+							<input class="input-other-info-checkbox" type=checkbox />
+							<p class="p-other-info checkbox-elm">С обработкой своих пеосональных данных согласен<span>*</span></p>
+							
+						</div>
+						<p class="p-other-info direction">Отправляя заявку, я подтверждаю согласие с условиями Пользовательского соглашения</p>
+					</label>
+					
+					
+					<p class="p-other-info direction pod-pravka"><span>*</span>Поля, которые надо обязательно заполнить</p>
+					
+				</div>
+			
+			</div>
+			<button type="submit"> 
+				ОТПРАВИТЬ
+			</button>
+			
+		</form>
+		
+	</div>
+ <script type="text/javascript" src="script.js"></script>
+ </body>
+	
+</html>
