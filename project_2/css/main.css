@@ -1,0 +1,224 @@
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div, p, input, button, form {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+.contaner{
+	max-width: 1466px;
+	margin: auto;
+
+}
+
+#header {
+	background: #22a2ec;
+	color: #fff;
+	padding: 30px 45px;
+}
+
+.logo {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-right: 127px;
+}
+
+.main-menu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu-item {
+	float: left;
+	margin: 0px 27px 0px 0px;
+	display: block;
+}
+
+.menu-item a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.phone {
+	font-weight: bold;
+	font-size: 18px;
+	float: right;
+}
+
+#firstblock{
+	padding: 30px 45px;
+}
+
+.aliggn{
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.mainblock{
+	margin-right: 20px;
+	/*border-color: blue;*/
+	width: 360px;
+	height: 246px;
+	border: 1px solid grey;
+
+	
+}
+
+.two {
+	border: 5px solid grey;
+}
+
+.three {	
+	box-shadow: 0 0 10px;
+}
+
+.mainblock h3{
+	margin: 0px;
+	padding: 20px;
+}
+
+.mainblock p{
+	margin: 0 20px 0 20px;
+}
+
+#description{
+	padding: 30px 45px;
+	/*display: block;
+	justify-content: space-between;*/
+
+}
+
+.block-descroption{
+	display: flex;
+	justify-content: space-between;
+}
+
+input{
+	width: 239px;
+	height: 45px;
+	margin: 5px 0;
+	padding: 5px 20px;
+}
+textarea{
+	width: 239px;
+	height: 45px;
+	margin: 5px 0;
+	padding: 5px 20px;
+}
+
+#knopka{
+	margin-top: 10px;
+	width: 145px;
+	height: 46px;
+	background-color: orange;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+label{
+	font-size: 10px;
+	color: grey;
+	font-weight: bold;
+}
+
+.main-kartochka-img{
+	margin-top: 65px;
+	/*width: 770px;*/
+	/*width: auto;*/
+	height: 220px;
+	padding: 20px 20px;
+	border-radius: 20px;
+	background-color: #194c6b;
+	
+}
+
+.aligins{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.main-kartochka-img h3{
+	margin: 0px;
+	color: #c1dced;
+}
+
+.kartochka-text-img{
+	width: 350px;
+}
+
+.kartochka-text-img p{
+	margin: 5px 0;
+	
+	color: #c1dced;
+	max-width: 315px;
+
+}
+
+.kartochka-img img{
+	width: 311px;
+	height: 135px;
+
+}
+
+.kartochka-img p{
+	font-size: 9px;
+	color: #c1dced;
+
+}
+
+footer{
+	background: #22a2ec;
+	color: #fff;
+	padding: 30px 36px;
+	max-height: 70px;
+}
+
+.author{
+	display: inline-flex;
+}
+
+.tab{
+	margin-left: 40px;
+	padding: 17px;
+	cursor: pointer;
+
+	/*border-colo*/
+	border: 1px solid;
+	border-radius: 5px;
+	display: inline-flex;
+}
+
+.oval{
+	margin-left: 66px;
+	border-radius: 50px;
+	display: inline-flex;
+	cursor: pointer;
+}
+
+.white{
+	margin-left: 62px;
+	border-radius: 3px;
+	background-color: white;
+	color: #22a2ec;
+	cursor: pointer;
+}
+
+.textfooter{
+	float: top;
+	margin-left: 100px;
+	display: inline-flex;
+}

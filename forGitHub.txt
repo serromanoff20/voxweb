@@ -1,0 +1,12 @@
+Main command for Git
+
+git init
+git add .
+git commit -m "comments"
+git remote add origin https://github.com/serromanoff2019/voxweb.git
+git push -u origin master
+
+git status
+
+
+
