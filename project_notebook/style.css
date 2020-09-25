@@ -1,0 +1,90 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+}
+
+.container{	
+	margin: 10px;
+	padding: 10px;
+	width: 460px;
+	border: 3px solid;
+	border-color: #caa001;
+	box-shadow: 5px 5px 20px;
+}
+
+.head{
+	text-align: center;
+	background-color: #caa001;
+}
+
+.todoItem{	
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0 16px 0;
+	vertical-align: middle;
+	max-width: auto;
+}
+
+.todoItem .label, 
+.todoItem .textfield{
+	margin-right: auto;
+}
+
+.checkbox{
+	margin: 5px;
+}
+
+.completed {
+	color: lightgray;
+	/*text-decoration: line-through;*/
+
+}
+
+
+.textfield{
+	display: none;
+}
+
+.editing {
+    /*display: none;*/
+}
+
+.todoItem .textfield {
+    display: none;
+}
+
+.todoItem .edit {
+	display: block;
+}
+
+.todoItem .editing{
+	display: block;
+}
+
+button{	
+	width: 80px;
+	/*position: relative;
+	font-weight: 400;
+	
+	outline: none;
+	vertical-align: middle;*/
+}
+
+
+.todoItem button{
+	opacity: 0;
+	transition: all .2s;
+	text-decoration: none;
+	color: 
+}
+
+.todoItem:hover button{
+	opacity: 1;
+}

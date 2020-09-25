@@ -1,0 +1,89 @@
+<!--  <?php 
+// 	include('connect/connect.php');
+ 	
+// 	$query_product = "SELECT * FROM Product as P
+ //		JOIN ProductSize as PSize on P.Size=PSize.Size";
+// 	$result_priduct = mysqli_query($link, $query_product) or die ("Ошибка соеденения" . my_sqli_error($result_product));
+ ?>
+ -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title>Страница продукта</title>
+ 	<meta charset="utf-8">
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+ 	<div class="container">
+ 		<!-- <?php 
+ 			//if ($result_product) {
+ 			//	$rows = mysqli_num_rows($result_product);
+ 			//	for ($i=0; $i < $rows; $i++) { 
+ 			//		$rows = mysqli_fetch_row(
+ 						$result_product)
+ 						?> -->
+ 		<div class="main_block">
+ 			<div class="left_block">
+				<div id="image2">
+			   		<div id="image3"></div>
+				</div>
+			</div>
+
+			<div class="image_block">
+				
+				<div id="image1" style="background-image: url(img/1.jpg);">
+					
+					<div id="pole_hov"></div>
+				</div>
+
+			</div>
+
+		 	<div class="right_block">
+		 		<div class="size-price">
+		 			<div class="size">
+		 				<label>Размер: </label> 
+		 				<!-- <?php 
+		 					//echo "$rows[8]";
+		 				?> -->
+		 			</div>
+		 			<div class="price">
+		 				<!--<?php 
+		 				//	echo "$rows[4]";
+		 				?>!-->
+		 			</div>
+		 		</div>
+		 		 <div class="name-and-color-product">
+			 		<h1>Название продукта</h1>
+		 			<p>Цвет: </p>
+		 			<a href="#"><img src="img/1.jpg" style="width: 25%;"></a>
+		 			<a href="#"><img src="img/2.jpg" style="width: 25%;"></a>
+		 			<a href="#"><img src="img/3.jpg" style="width: 25%;"></a>
+		 			<a href="#"><img src="img/3.jpg" style="width: 25%;"></a>
+	 			</div>
+	 			<br>
+
+	 			<div class="descripton-product">
+	 				<p> 
+	 					<i>Описание:</i>
+	 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	 				</p>
+
+	 				<a href="#">Подробнее...</a>	
+	 			</div>
+	 			
+	 			<center>
+	 				<button type="submit" name="buy">Добавить в корзину</button>
+	 			
+	 				<input type="submit" name="favorate" value="Избранное">
+	 			</center>
+	 			
+	 		</div>
+	 	</div>
+	 	<!-- <?php 
+	 			}
+			}
+		?> -->
+ 	</div>
+ 	<script type="text/javascript" src="script.js"></script>
+ </body>
+ </html>
